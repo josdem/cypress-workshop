@@ -1,3 +1,4 @@
 {
-  "vetlogUrl": "https://vetlog.org/"
+  "vetlogUrl": "https://vetlog.org/",
+  "expectedTitle": "Vetlog"
 }

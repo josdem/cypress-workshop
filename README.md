@@ -28,3 +28,8 @@ npx prettier --write .
 ```bash
 npx cypress run --browser chrome
 ```
+
+#### To run interactive
+```bash
+npx cypress open
+```
