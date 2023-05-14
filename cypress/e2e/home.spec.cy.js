@@ -9,6 +9,6 @@ describe("Loading home page", () => {
 
   it("validates page title", function () {
     cy.visit(this.data.vetlogUrl)
-    cy.title().should('eq', 'Vetlog')
+    cy.title().should("eq", "Vetlog")
   })
 })
