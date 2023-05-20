@@ -8,6 +8,7 @@
   "author": "josdem",
   "license": "ISC",
   "dependencies": {
+    "@applitools/eyes-cypress": "^3.32.2",
     "cypress": "^12.9.0"
   },
   "devDependencies": {
