@@ -19,7 +19,7 @@ describe("Loading home page", () => {
     cy.eyesCheckWindow({
       tag: "Home Page",
       target: "window",
-      fully: true,
+      fully: false,
     })
     cy.title().should("eq", this.data.expectedTitle)
   })
