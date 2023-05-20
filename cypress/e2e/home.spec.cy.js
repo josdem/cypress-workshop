@@ -7,8 +7,24 @@ describe("Loading home page", () => {
     })
   })
 
+  beforeEach(() => {
+    cy.eyesOpen({
+      appName: "Vetlog Application",
+      testName: Cypress.currentTest.title,
+    })
+  })
+
   it("validates page title", function () {
     cy.visit(this.data.vetlogUrl)
+    cy.eyesCheckWindow({
+      tag: "Home Page",
+      target: "window",
+      fully: true,
+    })
     cy.title().should("eq", this.data.expectedTitle)
+  })
+
+  afterEach(() => {
+    cy.eyesClose()
   })
 })
