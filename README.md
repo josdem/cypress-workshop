@@ -52,3 +52,7 @@ If you are using Windows based platform:
 ```bash
 $Env:APPLITOOLS_API_KEY="YOUR_APPLITOOLS_API_KEY"
 ```
+
+#### Read this as reference
+- https://josdem.io/techtalk/ux/cypress_getting_started/
+- https://josdem.io/techtalk/ux/cypress_applitools_integration/
